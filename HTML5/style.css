@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(239, 194, 194);
+}
+.la{
+    color: rgb(37, 36, 36);
+    text-shadow: 2px 3px black;
+    font-family: monospace;
+    font-weight: 300;
+    background-color: rgb(170, 203, 241);
+    text-transform: capitalize;
+    text-decoration: dotted;
+    letter-spacing: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
