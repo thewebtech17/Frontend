@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout - 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 10000px;
+            background: #c0c0aa;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+nav{
+    position: sticky;
+            top: 0px;
+}
+        ul {
+            display: flex;
+            justify-content:flex-end;
+            list-style: none;
+            /* background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+            
+
+        }
+
+        ul li {
+            
+            padding: 6px;
+            margin: 12px;
+        }
+        ul li a{
+            cursor: pointer;
+            text-decoration: none;
+            color: rgb(21, 30, 30);
+            font-family: monospace;
+            font-size: 15px;
+        }
+        .main{
+            /* background-color: #E0C3FC; */
+            height: 50vh;
+            display: flex;
+            justify-content:space-evenly;
+            position: relative;
+            top: 10px;
+        }
+        .daba{
+            /* background-color: green; */
+            width: 20%;
+            height: 40vh;
+            border: 2px solid white;
+            position: relative;
+            top: 18px;
+            text-align: center;
+        }
+        .content{
+           position: relative;
+           top: 7vh; 
+           display: flex;
+           justify-content: center;
+           border: 1px solid black;
+           border-radius: 20px;
+           height: 20vh;
+           width: 40%;
+           left: 70vh;
+           padding: 12px;
+           
+        }
+        .logo img{
+            width: 30vh;
+            position:fixed;
+            left: 180vh;
+            bottom: 14vh;
+            cursor: pointer;
+            mix-blend-mode: color-burn;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="main">
+            <div class="daba">
+                <p>1</p>
+            </div>
+            <div class="daba">
+                <p>2</p>
+            </div>
+        </div>
+    </section>
+<section>
+    <div class="content">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Voluptatibus quo similique rem?</p>
+    </div>
+    <div class="logo">
+        <img src="https://t4.ftcdn.net/jpg/05/11/87/37/360_F_511873784_NLmIMOcuwo9JTuoXJNyR0jQSQOUXUvFk.jpg" alt="">
+    </div>
+</section>
+</body>
+
+</html>
