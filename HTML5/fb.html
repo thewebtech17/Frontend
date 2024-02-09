@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(216, 227, 227);
+
+        }
+
+        .logo {
+            width: 40vw;
+            height: 40vh;
+            /* background-color: black; */
+        }
+
+        .logo img {
+            width: 25vw;
+        }
+
+        .logo p {
+            color: rgb(14, 15, 15);
+            font-size: 30px;
+            margin-left: 5%;
+            font-family: "Balsamiq Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        .form {
+            width: 40vw;
+            height: 60vh;
+            background-color: rgb(247, 240, 240);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .form input,
+        .btn {
+            text-align: center;
+            margin-top: 17px;
+            height: 40px;
+            width: 38vw;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+
+        }
+
+        .form p {
+            margin-top: 15px;
+            color: #1877f2;
+            cursor: pointer;
+        }
+
+        p:hover {
+            color: #0a6ff3;
+        }
+
+        .line {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #2b6ec6;
+            margin: 20px 16px;
+            text-align: center;
+        }
+        /* .container a{
+            position: relative;
+            top: 37vh;
+            right: 70vh;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="fb.svg" alt="">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <!--  -->
+        <div class="form">
+            <input type="text" name="" id="" placeholder="Email Address or phone number">
+            <input type="password" name="" id="" placeholder="Enter your password">
+            <button style="background-color:#1877f2; color: white;" class="btn">Login</button>
+            <p>Forgotten Password ?</p>
+            <button class="btn" style="background-color: #42b72a;margin-top: 12%; padding: 3%; width: 15vw;color: azure;">Create New Account</button>
+
+        </div>
+        <!-- <a href="#">Create a page <ins>for a celebrity, brand or business.</ins></a> -->
+    </div>
+
+</body>
+
+</html>

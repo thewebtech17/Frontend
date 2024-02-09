@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            height: 150vh;
+        }
+
+        .main {
+            /* border: 1px dashed blue; */
+            width: 100%;
+            height: 100vh;
+            /* background-color: antiquewhite; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* position: relative; */
+            /* left: 10vw; */
+
+
+        }
+
+        .box {
+            width: 30vw;
+            height: 90vh;
+            /* background-color: azure; */
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bx1 {
+            position: relative;
+            right: 19px;
+        }
+
+        video {
+            width: 30vw;
+            height: 89vh;
+
+
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            /* border: 1px solid black; */
+        }
+
+        .dusra {
+            border: 1px solid rgb(189, 186, 186);
+            /* height: 60vh;
+            position: relative;
+            bottom: 12vh; */
+        }
+
+        .logo {
+            width: 25vw;
+            height: 15vh;
+            /* border: 2px solid black; */
+            position: relative;
+            bottom: 5vh;
+        }
+
+        .logo img {
+            width: 12vw;
+
+        }
+
+        .form {
+            width: 25vw;
+            height: 15vh;
+            /* border: 2px solid red; */
+            position: relative;
+            bottom: 10vh;
+            padding: 12px;
+        }
+
+        .form input {
+            width: 24vw;
+            padding: 12px;
+            background-color: rgb(237, 232, 232);
+            color: black;
+            border: none;
+        }
+
+        #pwd {
+            position: relative;
+            top: 10px;
+        }
+
+        h4 {
+            position: relative;
+            bottom: 2vh;
+        }
+
+        .right {
+            position: relative;
+            top: 12px;
+            right: 7vw;
+            width: 10vw;
+
+        }
+
+        .left {
+            position: relative;
+            bottom: 9px;
+            left: 7vw;
+            width: 10vw;
+        }
+
+        .login a {
+
+            text-decoration: none;
+            font-family: monospace;
+            line-height: 3;
+        }
+
+        .h5 {
+            position: relative;
+            /* bottom: 12vh; */
+            line-height: 3;
+            font-size: medium;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #sign {
+            color: rgb(145, 145, 252);
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        #sign:hover {
+            color: blue;
+        }
+
+        .kl {
+            width: 10vw;
+            position: relative;
+            top: 40px;
+            cursor: pointer;
+        }
+
+        #mg {
+            height: 6.5vh;
+            border-radius: 8px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* padding: 0px 12px; */
+            flex-grow: 12;
+            width: 80%;
+            position: relative;
+            left: 18vh;
+        }
+
+        .footer a {
+            text-decoration: none;
+            margin: auto;
+            font-size: 12px;
+            padding: 0px;
+            margin: 0px;
+            letter-spacing: 0px;
+            font-size: 15px;
+            color: rgb(133, 134, 136);
+        }
+
+        .last {
+            position: relative;
+            left: 90vh;
+            top: 12px;
+            color: rgb(133, 134, 136);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box bx1">
+            <video src="insta.mp4" loop autoplay></video>
+
+        </div>
+        <!--  -->
+        <div class="box dusra">
+            <div class="logo">
+                <img src="instagram.png" alt="">
+
+            </div>
+            <!--  -->
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Phone no, UserName, E-mail">
+                <input type="password" name="" id="pwd" placeholder="Enter your password">
+                <button
+                    style="margin-top: 25px;width: 24vw; padding: 8px; border: none;border-radius: 15px;background-color: rgb(71, 127, 232);color: aliceblue; cursor: pointer;">Login</button>
+            </div>
+            <div class="pcd">
+                <h4>
+                    <hr class="right">OR
+                    <hr class="left">
+                </h4>
+            </div>
+            <div class="login">
+                <a href="https:\\Facebook.com"><i class="fa-brands fa-square-facebook"></i> Log in With Facebook</a>
+                <h5 class="h5">Forgot Password ?</h5>
+
+                <hr style="width: 30vw;">
+                <h5 class="h5">Don't Have an account <span id="sign">Sign Up</span></h5>
+
+                <center style="padding-top: 12px; font-size: 20px;">Get The App</center>
+                <img class="kl" src="gp.png" alt="">
+                <img class="kl" id="mg" src="mg.png" alt="">
+
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+    <div class="footer">
+        <a href="Meta">Meta</a>
+        <a href="About">about</a>
+        <a href="Blog">Blog</a>
+        <a href="Job">Jobs</a>
+        <a href="Help">Help</a>
+        <a href="Api">Api</a>
+        <a href="Privacy">Privacy</a>
+        <a href="Terms">Terms</a>
+        <a href="Location">Location</a>
+        <a href="Inst">Instagram Lite</a>
+        <a href="#">Threads</a>
+        <a href="#">Contact Uploading & Non-users</a>
+        <a href="#">Meta Verified</a>
+
+    </div>
+    <p class="last">English<ins> @ 2024 from Meta</ins></p>
+
+
+
+</body>
+
+</html>
